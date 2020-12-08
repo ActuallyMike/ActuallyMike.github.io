@@ -1,5 +1,8 @@
 body {
 	background-color: #2e2e2e;
+	background-size: auto;
+	/*overflow-y: scroll;
+	overflow-x: hidden;*/
 }
 
 h1 {
@@ -31,6 +34,7 @@ b1 {
 	font-family: Monospace;
 	font-size: 25;
 	margin-left: 12%;
+	margin-right: 5%;
 	position:absolute;
     top:24rem;
     width:100%;
@@ -40,12 +44,13 @@ b1 {
 b2 {	
 	color: White;
 	font-family: Monospace;
-	font-size: 25;
-	margin-left: 8%;
+	font-size: 15;
+	left: 5rem;
 	position:absolute;
     top:15rem;
     width:100%;
     height:60px;
+	overflow: auto;
 }
 
 footer {
@@ -61,38 +66,103 @@ footer {
 	height:60px;
 }
 
-/*Links*/ 
+/*Links - NavMenu*/ 
 	
-a:link, a:visited {
+links NM a:link, links NM a:visited {
 	background-color: #4a4a4a;
 	color: White;
 	border: 40px #737373;
 	padding: 25px 3rem;
 	text-align: center;
-	top: 5px;
+	margin-top: 15px;
 	text-decoration: none;
 	display: inline-block;
 	font-family: Calibri;
 }
 
-a:hover {
+links NM a:hover {
 	background-color: #cccccc;
+	color: #1a1a1a;
+
+}
+
+links NM.active a{
+	background-color: #e0c426;
 	color: #1a1a1a;
 }
 
 /*Images*/
 
 div.logo {
- position: fixed;
-  top: 0;
-  left: 0;
-  width: 1px;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	width: 1px;
+	margin-left: 20px;
 }
 
-.centre {
-  display: block;
-  margin-left: 60%;
-  margin-right: auto;
-  width: 24%;
-  vertical-align: middle;
+.featured{
+	display: block;
+	position: static;
+	margin-left: 22rem;
+	margin-right: auto;
+	margin-top: 8rem;
+	margin-bottom: auto;
+	width: auto;
+}
+
+.featured:hover{
+	display: block;
+	position: static;
+	margin-left: 22rem;
+	margin-right: auto;
+	margin-top: 8rem;
+	margin-bottom: auto;
+	width: auto;
+	transform: scale(1.15);
+}
+
+
+/*Side Display*/
+
+
+.SP1{
+	display: block;
+	position: static;
+	width: 7rem;
+	float: left;
+	padding: 5px;
+	
+}
+
+.SP2{
+	display: block;
+	position: static;
+	width: 7rem;
+	float: left;
+	padding: 5px;
+}
+
+.SP3{
+	display: block;
+	position: static;
+	width: 7rem;
+	float: left;
+	padding: 5px;
+}
+
+.SP4{
+	display: block;
+	position: static;
+	width: 7rem;
+	float: left;
+	padding: 5px;
+}
+
+.SP5{
+	display: block;
+	position: static;
+	width: 7rem;
+	float: left;
+	padding: 5px;
 }
