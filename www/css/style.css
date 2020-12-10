@@ -12,7 +12,7 @@ h1 {
 	margin-left: 10%;
 	position:absolute;
     top:18rem;
-    width:100%;
+    width:auto;
     height:60px;
 	
 }
@@ -24,7 +24,7 @@ h2 {
 	margin-left: 7%;
 	position:absolute;
     top:8rem;
-    width:100%;
+    width:auto;
     height:60px;
 	
 }
@@ -37,7 +37,7 @@ b1 {
 	margin-right: 5%;
 	position:absolute;
     top:24rem;
-    width:100%;
+    width:auto;
     height:60px;
 }
 
@@ -48,9 +48,8 @@ b2 {
 	left: 5rem;
 	position:absolute;
     top:15rem;
-    width:100%;
+    width:auto;
     height:60px;
-	overflow: auto;
 }
 
 footer {
@@ -103,7 +102,7 @@ div.logo {
 
 .featured{
 	display: block;
-	position: static;
+	position: auto;
 	margin-left: 22rem;
 	margin-right: auto;
 	margin-top: 8rem;
@@ -123,46 +122,23 @@ div.logo {
 }
 
 
+
 /*Side Display*/
 
 
-.SP1{
+.SD{
 	display: block;
 	position: static;
 	width: 7rem;
 	float: left;
-	padding: 5px;
-	
+	margin: 5px;
+
 }
 
-.SP2{
+.imagestrip {
 	display: block;
 	position: static;
-	width: 7rem;
-	float: left;
-	padding: 5px;
-}
-
-.SP3{
-	display: block;
-	position: static;
-	width: 7rem;
-	float: left;
-	padding: 5px;
-}
-
-.SP4{
-	display: block;
-	position: static;
-	width: 7rem;
-	float: left;
-	padding: 5px;
-}
-
-.SP5{
-	display: block;
-	position: static;
-	width: 7rem;
-	float: left;
-	padding: 5px;
+	margin-left: 22rem;
+	margin-top: 2rem;
+	width: auto;	
 }
