@@ -53,16 +53,17 @@ b2 {
 }
 
 footer {
-	color: White;
-	background-color: #363636;
 	position:absolute;
     bottom:0;
-    width:100%;
-    height:60px;
-	color: White;
-	font-family: Monospace;
-	font-size: 25;
-	height:60px;
+    width:auto;
+    background: #363636;
+	border-top: 3px solid #e0c426;
+	color: white;
+	font-family: Calibri;
+	text-align: right;
+	padding: 30px;
+	left:0;
+	right:0;
 }
 
 /*Links - NavMenu*/ 
@@ -102,26 +103,41 @@ div.logo {
 
 .featured{
 	display: block;
-	position: auto;
-	margin-left: 22rem;
+	position: relative;
+	margin-left: 10%;
 	margin-right: auto;
 	margin-top: 8rem;
 	margin-bottom: auto;
-	width: auto;
+	width: 650;
 }
 
 .featured:hover{
 	display: block;
-	position: static;
-	margin-left: 22rem;
+	position: relative;
+	margin-left: 10%;
 	margin-right: auto;
 	margin-top: 8rem;
 	margin-bottom: auto;
-	width: auto;
+	width: 650;
 	transform: scale(1.15);
 }
 
+.SM{
+	display: block;
+	position: static;
+	width: 2rem;
+	float: left;
+	margin: 5px;
+	
+}
 
+.SocialMedia {
+	display: block;
+	position: static;
+	margin-left: 22rem;
+	margin-top: 2rem;
+	width: auto;	
+}
 
 /*Side Display*/
 
@@ -129,16 +145,25 @@ div.logo {
 .SD{
 	display: block;
 	position: static;
-	width: 7rem;
+	width: 120px;
 	float: left;
 	margin: 5px;
+	
+}
 
+.SD:hover{
+	display: block;
+	position: static;
+	width: 120px;
+	float: left;
+	margin: 5px;
+	transform: scale(1.15);
 }
 
 .imagestrip {
 	display: block;
 	position: static;
-	margin-left: 22rem;
+	margin-left: 10%;
 	margin-top: 2rem;
 	width: auto;	
 }
