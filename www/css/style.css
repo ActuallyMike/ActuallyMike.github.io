@@ -1,8 +1,6 @@
 body {
 	background-color: #2e2e2e;
 	background-size: auto;
-	/*overflow-y: scroll;
-	overflow-x: hidden;*/
 }
 
 h1 {
@@ -13,7 +11,7 @@ h1 {
 	position:absolute;
     top:18rem;
     width:auto;
-    height:60px;
+    
 	
 }
 
@@ -21,11 +19,11 @@ h2 {
 	color: White;
 	font-family: Monospace;
 	font-size: 50px;
-	margin-left: 7%;
-	position:absolute;
-    top:8rem;
+	margin-left: 5%;
+	position:relative;
+    top:2rem;
     width:auto;
-    height:60px;
+    
 	
 }
 
@@ -38,7 +36,7 @@ b1 {
 	position:absolute;
     top:24rem;
     width:auto;
-    height:60px;
+    
 }
 
 b2 {	
@@ -46,14 +44,15 @@ b2 {
 	font-family: Monospace;
 	font-size: 15;
 	left: 5rem;
-	position:absolute;
-    top:15rem;
+	position:relative;
+	margin-right:100px;
+    top:1rem;
     width:auto;
-    height:60px;
+    
 }
 
 footer {
-	position:absolute;
+	position:fixed;
     bottom:0;
     width:auto;
     background: #363636;
@@ -64,6 +63,25 @@ footer {
 	padding: 30px;
 	left:0;
 	right:0;
+}
+
+/*Social Media*/
+
+.SM{
+	display: block;
+	position: static;
+	width: 2rem;
+	float: left;
+	margin: 5px;
+	
+}
+
+.SocialMedia {
+	display: block;
+	position: static;
+	margin-left: 22rem;
+	margin-top: 2rem;
+	width: auto;	
 }
 
 /*Links - NavMenu*/ 
@@ -122,22 +140,7 @@ div.logo {
 	transform: scale(1.15);
 }
 
-.SM{
-	display: block;
-	position: static;
-	width: 2rem;
-	float: left;
-	margin: 5px;
-	
-}
 
-.SocialMedia {
-	display: block;
-	position: static;
-	margin-left: 22rem;
-	margin-top: 2rem;
-	width: auto;	
-}
 
 /*Side Display*/
 
